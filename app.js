@@ -29,7 +29,7 @@ app.use('/users', UsersMiddleware, UsersRoute); // Para que funcione
 app.use('/photos', PhotosRoute);
 
 
-app.listen(port, 'localhost', () => {
+app.listen(port, () => {
     console.log("Pude levantar el servidor");
 })
 
